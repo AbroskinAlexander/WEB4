@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd3d4d3e-65b6-4b1b-80eb-9f20c2cf99fc" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>list(</find>
+    </findStrings>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XAd9LMo31oZizpc800K7pobERS" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="C:/android-sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../EWP/1512pages/ewp/assets/css" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="util" />
+      <recent name="model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="web4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd3d4d3e-65b6-4b1b-80eb-9f20c2cf99fc" name="Default" comment="" />
+      <created>1563202819097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563202819097</updated>
+      <workItem from="1563202827797" duration="9064000" />
+      <workItem from="1580492682049" duration="37760000" />
+      <workItem from="1580707732132" duration="674000" />
+      <workItem from="1580717846250" duration="4000" />
+      <workItem from="1580719996576" duration="40000" />
+      <workItem from="1580721359525" duration="158000" />
+      <workItem from="1580726553127" duration="10702000" />
+      <workItem from="1580808388327" duration="7023000" />
+      <workItem from="1580835274350" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="363" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580492772913">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="734" y="363" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580492772912" />
+    <state x="395" y="418" key="#xdebugger.evaluate" timestamp="1580548875739">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="395" y="418" key="#xdebugger.evaluate/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580548875739" />
+    <state x="729" y="462" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580721411807">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="729" y="462" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580721411807" />
+    <state width="1887" height="396" key="GridCell.Tab.0.bottom" timestamp="1580835262652">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1887" height="396" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580835262652" />
+    <state width="1887" height="396" key="GridCell.Tab.0.center" timestamp="1580835262652">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1887" height="396" key="GridCell.Tab.0.center/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580835262652" />
+    <state width="1887" height="396" key="GridCell.Tab.0.left" timestamp="1580835262651">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1887" height="396" key="GridCell.Tab.0.left/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580835262651" />
+    <state width="1887" height="396" key="GridCell.Tab.0.right" timestamp="1580835262652">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1887" height="396" key="GridCell.Tab.0.right/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580835262652" />
+    <state width="1234" height="486" key="GridCell.Tab.1.bottom" timestamp="1580555708745">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1234" height="486" key="GridCell.Tab.1.bottom/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580555708745" />
+    <state width="1234" height="486" key="GridCell.Tab.1.center" timestamp="1580555708745">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1234" height="486" key="GridCell.Tab.1.center/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580555708745" />
+    <state width="1234" height="486" key="GridCell.Tab.1.left" timestamp="1580555708745">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1234" height="486" key="GridCell.Tab.1.left/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580555708745" />
+    <state width="1234" height="486" key="GridCell.Tab.1.right" timestamp="1580555708745">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1234" height="486" key="GridCell.Tab.1.right/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580555708745" />
+    <state x="470" y="235" key="SettingsEditor" timestamp="1580735608918">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="470" y="235" key="SettingsEditor/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580735608918" />
+    <state x="198" y="448" width="884" height="524" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580551756045">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="198" y="448" width="884" height="524" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580551756045" />
+    <state x="303" y="323" width="672" height="678" key="search.everywhere.popup" timestamp="1580821353485">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="303" y="323" width="672" height="678" key="search.everywhere.popup/0.0.2560.1410/2560.232.1920.1170@0.0.2560.1410" timestamp="1580821353485" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
