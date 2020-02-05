@@ -85,7 +85,6 @@ public class CarDao {
 
     public void deleteAllCars() {
         Transaction trx = null;
-        session.
         try {
             trx = session.beginTransaction();
             session.createQuery("DELETE FROM Car").executeUpdate();
