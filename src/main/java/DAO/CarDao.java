@@ -28,11 +28,20 @@ public class CarDao {
                 .add(Restrictions.eq("brand", car.getBrand()))
                 .list();
         if (cars.size() < 10) {
-            Transaction trx = session.beginTransaction();
-            session.save(car);
-            trx.commit();
-            session.close();
-            return true;
+            Transaction trx = null;
+            try {
+                trx = session.beginTransaction();
+                session.save(car);
+                trx.commit();
+                return true;
+            } catch (Exception e) {
+                e.printStackTrace();
+                if (trx != null) {
+                    trx.rollback();
+                }
+            } finally {
+                session.close();
+            }
         }
         session.close();
         return false;
@@ -47,30 +56,48 @@ public class CarDao {
     }
 
     public boolean soldCar(Map<String, String> map) {
-        List<Car> test = CarService.getInstance().getAllCars();
         Criteria criteria =
                 session.createCriteria(Car.class);
         List<Car> carsToSell = (List<Car>) criteria
                 .add(Restrictions.allEq(map))
                 .list();
         if (carsToSell.size() != 0) {
-            Car car = carsToSell.get(0);
-            Transaction trx = session.beginTransaction();
-            session.delete(car);
-            trx.commit();
-            session.close();
-            DailyReportService.getInstance().updateReport(car.getPrice(), 1L);
-            return true;
+            Transaction trx = null;
+            try {
+                Car car = carsToSell.get(0);
+                trx = session.beginTransaction();
+                session.delete(car);
+                trx.commit();
+                DailyReportService.getInstance().updateReport(car.getPrice(), 1L);
+                return true;
+            } catch (Exception e) {
+                e.printStackTrace();
+                if (trx != null) {
+                    trx.rollback();
+                }
+                session.close();
+            }
         }
         session.close();
         return false;
 
     }
 
-    public void delete() {
-        Transaction trx = session.beginTransaction();
-        session.createQuery("DELETE FROM Car").executeUpdate();
-        trx.commit();
-        session.close();
+    public void deleteAllCars() {
+        Transaction trx = null;
+        session.
+        try {
+            trx = session.beginTransaction();
+            session.createQuery("DELETE FROM Car").executeUpdate();
+            trx.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+            if (trx != null) {
+                trx.rollback();
+            }
+        } finally {
+            session.close();
+        }
+
     }
 }

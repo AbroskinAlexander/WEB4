@@ -42,6 +42,6 @@ public class DailyReportService {
     }
 
     public void Delete() {
-        new DailyReportDao(sessionFactory.openSession()).delete();
+        new DailyReportDao(sessionFactory.openSession()).deleteAllReports();
     }
 }

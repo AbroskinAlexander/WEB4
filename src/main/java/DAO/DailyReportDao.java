@@ -16,35 +16,66 @@ public class DailyReportDao {
     }
 
     public List<DailyReport> getAllDailyReport() {
-        Transaction transaction = session.beginTransaction();
-        List<DailyReport> dailyReports = session.createQuery("FROM DailyReport").list();
-        transaction.commit();
-        session.close();
+        Transaction transaction = null;
+        List<DailyReport> dailyReports = null;
+        try {
+            transaction = session.beginTransaction();
+            dailyReports = session.createQuery("FROM DailyReport").list();
+            transaction.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+            if (transaction != null) {
+                transaction.rollback();
+            }
+        } finally {
+            session.close();
+        }
         return dailyReports;
     }
 
     public void updateReport(Long earnings, Long soldCars) {
         List<DailyReport> list = DailyReportService.getInstance().getAllDailyReports();
-        if (list.size() != 0) {
-            DailyReport dailyReport = list.get(list.size() - 1);
-            Transaction transaction = session.beginTransaction();
-            dailyReport.setEarnings(dailyReport.getEarnings() + earnings);
-            dailyReport.setSoldCars(dailyReport.getSoldCars() + soldCars);
-            session.update(dailyReport);
-            transaction.commit();
-        } else {
-            Transaction transaction = session.beginTransaction();
-            session.save(new DailyReport(earnings, soldCars));
-            transaction.commit();
+        Transaction transaction = null;
+        try {
+            if (list.size() != 0) {
+                DailyReport dailyReport = list.get(list.size() - 1);
+                dailyReport.setEarnings(dailyReport.getEarnings() + earnings);
+                dailyReport.setSoldCars(dailyReport.getSoldCars() + soldCars);
+                transaction = session.beginTransaction();
+                session.update(dailyReport);
+                transaction.commit();
+            } else {
+                transaction = session.beginTransaction();
+                session.save(new DailyReport(earnings, soldCars));
+                transaction.commit();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            if (transaction != null) {
+                transaction.rollback();
+            }
+        } finally {
+            session.close();
         }
-        session.close();
+
     }
 
     public void addNewDay() {
-        Transaction transaction = session.beginTransaction();
-        session.save(new DailyReport(0L, 0L));
-        transaction.commit();
-        session.close();
+        Transaction transaction = null;
+        try {
+            transaction = session.beginTransaction();
+            session.save(new DailyReport(0L, 0L));
+            transaction.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+            if (transaction != null) {
+                transaction.rollback();
+            }
+        } finally {
+            session.close();
+        }
+
+
     }
 
     public DailyReport getLastReport() {
@@ -52,10 +83,20 @@ public class DailyReportDao {
         return list.get(list.size() - 2);
     }
 
-    public void delete() {
-        Transaction trx = session.beginTransaction();
-        session.createQuery("DELETE FROM DailyReport").executeUpdate();
-        trx.commit();
-        session.close();
+    public void deleteAllReports() {
+        Transaction trx = null;
+        try {
+            trx = session.beginTransaction();
+            session.createQuery("DELETE FROM DailyReport").executeUpdate();
+            trx.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+            if (trx != null) {
+                trx.rollback();
+            }
+        } finally {
+            session.close();
+        }
+
     }
 }

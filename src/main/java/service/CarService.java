@@ -39,6 +39,6 @@ public class CarService {
     }
 
     public void Delete() {
-        new CarDao(sessionFactory.openSession()).delete();
+        new CarDao(sessionFactory.openSession()).deleteAllCars();
     }
 }
